@@ -18,10 +18,6 @@ const Table = (props) => {
         
           Price
         </div>
-        {/* <div className={style.tableSection4}>
-          
-          <div className={style.text}>Nutrients</div>
-        </div> */}
       </div>
 
       {box.map((bx) => (
@@ -33,7 +29,6 @@ const Table = (props) => {
                 {bx.price}
             </div>
           </div>
-          {/* <div className={style.breakLine}></div> */}
         </div>
       ))}
     </div>

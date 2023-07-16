@@ -1,15 +1,14 @@
 {
   "name": "foodieshub",
   "private": true,
-  "homepage": "https://sulakshanachetry.github.io/FoodiesHub",
+ 
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
+  
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",

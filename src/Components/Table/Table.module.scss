@@ -2,7 +2,7 @@ $dark-grey: #333;
 $light-grey: #dedfde;
 
 .table{
-    margin: 4rem;
+    margin: 2rem auto;
 }
 .tableSection {
   display: flex;
@@ -13,8 +13,6 @@ $light-grey: #dedfde;
   padding: 0.3rem;
   align-items: center;
   font-weight: 550;
-//   border: 0.1rem solid $light-grey;
-//   box-shadow: -0.3rem 0 0.3rem -0.3rem $dark-grey, 0.3rem 0 0.3rem -0.3rem $dark-grey;
 }
 
 .tableSection> *{
@@ -27,15 +25,12 @@ $light-grey: #dedfde;
 
 .tableSection1 {
   width: 25rem;
-//   border: 0.1rem solid $light-grey;
 }
 .tableSection2 {
   width: 30rem;
-//   border: 0.1rem solid $light-grey;
 }
 .tableSection3 {
   width: 25rem;
-
 }
 
 
@@ -47,8 +42,6 @@ $light-grey: #dedfde;
   margin: 1rem auto;
   align-items: center;
   font-weight: 550;
-//   border-bottom: 0.1rem solid $light-grey;
-//   box-shadow: -0.3rem 0 0.3rem -0.3rem $dark-grey, 0.3rem 0 0.3rem -0.3rem $dark-grey;
 }
 
 .tableHeader > * {
@@ -59,14 +52,24 @@ $light-grey: #dedfde;
   height: 3.25rem;
 }
 
-@media only screen and (max-width: 600px) {
-    body{
+@media only screen and (max-width: 675px) {
+    .table{
         font-size: 0.6rem;
+        // width: 10rem;
+        font-size: 10px;
+        overflow: scroll;
+    }
+    .tableSection,.tableHeader{
+      width:90%;
+    }
+    .tableSection>*{
+      overflow: scroll;
+      align-items:flex-start;
     }
   }
   
-  @media (min-width:600px) and (max-width:750px) {
-    body{
+  @media (min-width:675px) and (max-width:925px) {
+    .table{
         font-size: 0.8rem;
     }
   }

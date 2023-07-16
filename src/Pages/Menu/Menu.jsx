@@ -26,7 +26,7 @@ function Menu() {
           price: 190,
         },
         {
-          name: "Veg manchurian",
+          name: "Veg Manchurian",
           image: VegManchurian,
           price: 120,
         },
@@ -36,7 +36,7 @@ function Menu() {
           price: 290,
         },
         {
-          name: "Chicken Fried Rice",
+          name: "Fried Rice",
           image: FriedRice,
           price: 280,
         },
